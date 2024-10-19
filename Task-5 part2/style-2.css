@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url('./assets/images/OIP.jfif');
+}
+.converter_body{
+    width:400px;
+    height: 150px;
+    background: rgb(238, 241, 241);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    box-shadow: 0px 0px 90px 1px #caccac;
+}
+.converter_title {
+    text-align: center;
+    margin: 13px 0px;
+}
+input{
+    height:25px;
+}
+#input{
+    margin-left: 25px;
+}
+
+#inputType,#resultType {
+    width: 172px;
+     
+    margin-left: 25px;
+    color:red;
+}
+#resultType {
+    margin-left: 12.5px;
+     
+}
